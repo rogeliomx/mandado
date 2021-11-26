@@ -28,7 +28,8 @@ function App() {
         <header className="App-header">
           <Switch>
             <Route exact path="/">
-             <Todos texto="Hola soy un stateless component"/>
+            <HolaMundo texto="Hola soy un stateless component"/>          
+             {/* <Todos texto="Hola soy un stateless component"/> */}
             </Route>
               <Route exact path="/class" component={HolaMundoClass}/>
               <Route exact path="/notFound" render={() => <NotFound/>} />
